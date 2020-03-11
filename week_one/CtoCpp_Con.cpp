@@ -16,7 +16,7 @@ const int N = 40 ;
 
 template <typename T>
 
-void sum(int& p, std::vector<T> &d)
+inline void sum(int& p, std::vector<T> &d)
 
 {
 	p = 0;
